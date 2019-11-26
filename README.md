@@ -1,6 +1,6 @@
 Project inspired by MDN Node express tutorial
 
-Live link showcasing this finished project: [https://evening-sea-52691.herokuapp.com/catalog]
+Live link showcasing this finished project: https://evening-sea-52691.herokuapp.com/catalog
 
 This project features a fully working CRUD website connected to a database complete with dynamic views.  It demonstrates the following concepts and tools below:
 
