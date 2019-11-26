@@ -18,7 +18,9 @@ app.use(helmet());
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = process.env.db_address;  //include your own db here
+var dev_db_url = 'mongodb+srv://mongoUser:mongo123@cluster0-buveo.azure.mongodb.net/local_library?retryWrites=true&w=majority'
+var mongoDB = process.env.MONGODB_URI || dev_db_url;  //include your own db here
+
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
