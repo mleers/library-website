@@ -17,8 +17,8 @@ var app = express();
 app.use(helmet());
 
 //Set up mongoose connection
-var mongoose = require('mongoose');
-var dev_db_url = 'mongodb+srv://mongoUser:mongo123@cluster0-buveo.azure.mongodb.net/local_library?retryWrites=true&w=majority'
+var mongoose = require('mongoose'); 
+var dev_db_url = process.env.MONGODB_DEV_URI;
 var mongoDB = process.env.MONGODB_URI || dev_db_url;  //include your own db here
 
 mongoose.connect(mongoDB, { useNewUrlParser: true });
