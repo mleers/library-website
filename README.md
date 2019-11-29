@@ -35,8 +35,29 @@ This project features a fully working CRUD website connected to a database compl
 
 
 
-### A few screenshots:
+### Visuals:
+
+### Create
+<details><summary>View screenshot</summary>
 
 ![Screen Shot 2019-11-25 at 4 57 13 PM](https://user-images.githubusercontent.com/29722295/69591153-abd3e580-0fa6-11ea-9050-665be12665b2.png)
+</details>
+
+### Read
+<details><summary>View screenshot</summary>
+
+![Screen Shot 2019-11-25 at 4 57 26 PM](https://user-images.githubusercontent.com/29722295/69887846-de7b2800-129d-11ea-8860-c4fef81c48e7.png)
+</details>
+
+### Update
+<details><summary>View screenshot</summary>
 
 ![Screen Shot 2019-11-25 at 5 11 10 PM](https://user-images.githubusercontent.com/29722295/69591181-c6a65a00-0fa6-11ea-8d7d-f1b696b8b119.png)
+</details>
+
+### Delete
+<details><summary>View screenshot</summary>
+
+![Screen Shot 2019-11-25 at 5 09 51 PM](https://user-images.githubusercontent.com/29722295/69887893-fd79ba00-129d-11ea-9320-692b52b271ca.png)
+</details>
+
