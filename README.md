@@ -35,7 +35,7 @@ This project features a fully working CRUD website connected to a database compl
 
 
 
-### Visuals:
+## Visuals:
 
 ### Create
 <details><summary>View screenshot</summary>
