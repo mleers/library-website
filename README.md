@@ -33,9 +33,9 @@ This project features a fully working CRUD website connected to a database compl
 * `catalog/<object>/delete` DELETE 
 
 ### Todo
-* additional styling for views
-* user auth
-* autofill capabilities in forms 
+* [ ] additional styling for views
+* [ ] user auth
+* [ ] autofill capabilities in forms 
 
 
 
